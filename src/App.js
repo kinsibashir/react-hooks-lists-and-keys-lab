@@ -4,9 +4,21 @@ import ProjectList from "./components/ProjectList";
 
 function App() {
   const projects = [
-    { id: 1, name: "Project Alpha", technologies: ["React", "CSS", "JS"] },
-    { id: 2, name: "Project Beta", technologies: ["HTML", "CSS"] },
-    { id: 3, name: "Project Gamma", technologies: ["Node", "Express", "MongoDB"] },
+    {
+      id: 1,
+      name: "Project Alpha",
+      technologies: ["React", "CSS", "JavaScript"]
+    },
+    {
+      id: 2,
+      name: "Project Beta",
+      technologies: ["HTML", "CSS"]
+    },
+    {
+      id: 3,
+      name: "Project Gamma",
+      technologies: ["Node", "Express", "MongoDB"]
+    }
   ];
 
   return (
